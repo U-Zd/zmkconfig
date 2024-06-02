@@ -101,13 +101,4 @@
             sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
     };
-&kscan {
-    status = "okay";
-    debounce_period = <30>;
-};
-
-&oled {
-    status = "okay";
-    timeout = <60000>;
-};
 };
